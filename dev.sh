@@ -1,2 +1,2 @@
 #!/bin/sh
-cd ~/dev/github.hpe.com/subhajit-dasgupta
+cd ~/dev/github.com/subhajitdasgupta
