@@ -1,3 +1,3 @@
 #!/bin/sh
-export HOST=`ifconfig | grep 192 | cut -d ' ' -f 10`
+export HOST=localhost
 psql -U postgres -h $HOST

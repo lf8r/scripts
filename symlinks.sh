@@ -105,3 +105,9 @@ sudo rm /usr/bin/e
 sudo ln -s $HOME/scripts/e.sh /usr/bin/e
 sudo rm /usr/bin/mci
 sudo ln -s $HOME/scripts/mci.sh /usr/bin/mci
+sudo rm /usr/bin/newbranch
+sudo ln -s $HOME/scripts/newbranch.sh /usr/bin/newbranch
+sudo rm /usr/bin/gitshow
+sudo ln -s $HOME/scripts/gitshow.sh /usr/bin/gitshow
+sudo rm /usr/bin/mcs
+sudo ln -s $HOME/scripts/mcs.sh /usr/bin/mcs
