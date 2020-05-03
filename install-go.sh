@@ -11,8 +11,8 @@ echo "export GOROOT=/usr/local/go" >> ~/.bashrc
 echo "export GOPATH=$HOME/go" >> ~/.bashrc
 echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.bashrc
 echo "Please source ~/.profile"
-sudo apt install golang-golang-x-tools
-go get -u -v github.com/nsf/gocode
-go get -u -v golang.org/x/tools/cmd/guru
-go get -u -v github.com/golang/lint/golint
+#sudo apt install golang-golang-x-tools
+#go get -u -v github.com/nsf/gocode
+#go get -u -v golang.org/x/tools/cmd/guru
+#go get -u -v github.com/golang/lint/golint
 echo "Install the Go::CodeNix eclipse plug-in from the marketplace"
