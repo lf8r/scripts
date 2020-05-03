@@ -19,7 +19,7 @@ go get -u github.com/ramya-rao-a/go-outline
 go get -u github.com/newhook/go-symbols
 go get -u github.com/uudashr/gopkgs/cmd/gopkgs
 go get -u golang.org/x/tools/cmd/gorename
-gp get -u golang.org/x/tools/cmd/guru
+go get -u golang.org/x/tools/cmd/guru
 go get -u github.com/sqs/goreturns
 go get golang.org/x/tools/cmd/goimports
 go get -u github.com/zmb3/gogetdoc
