@@ -117,3 +117,6 @@ sudo rm /usr/bin/mskip
 sudo ln -s $HOME/scripts/mskip.sh /usr/bin/mskip
 sudo rm /usr/bin/minstall
 sudo ln -s $HOME/scripts/minstall.sh /usr/bin/minstall
+sudo rm /usr/bin/eh
+sudo ln -s $HOME/scripts/eh.sh /usr/bin/eh
+

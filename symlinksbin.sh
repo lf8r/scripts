@@ -117,3 +117,5 @@ rm $HOME/bin/mskip
 ln -s $HOME/scripts/mskip.sh $HOME/bin/mskip
 rm $HOME/bin/minstall
 ln -s $HOME/scripts/minstall.sh $HOME/bin/minstall
+rm $HOME/bin/eh
+ln -s $HOME/scripts/eh.sh $HOME/bin/eh
