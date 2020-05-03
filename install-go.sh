@@ -9,7 +9,7 @@ sudo mv go /usr/local/.
 mkdir -p ~/go
 echo "export GOROOT=/usr/local/go" >> ~/.bashrc
 echo "export GOPATH=$HOME/go" >> ~/.bashrc
-echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.bashrc
+echo "export PATH=$HOME/go/bin:/usr/local/go/bin:$PATH" >> ~/.bashrc
 echo "Please source ~/.profile"
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
