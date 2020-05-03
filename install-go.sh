@@ -2,8 +2,8 @@
 sudo apt-get update
 sudo apt-get -y upgrade
 cd /tmp
-wget https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz
-tar -zxvf go1.13.3.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
+tar -zxvf go1.14.2.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go
 sudo mv go /usr/local/.
 mkdir -p ~/go
