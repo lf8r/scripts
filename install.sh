@@ -4,7 +4,7 @@ git fetch origin `git rev-parse --abbrev-ref HEAD`
 git merge FETCH_HEAD
 mkdir -p ~/scripts
 rm -rf ~/scripts/*
-cp * ~/scripts/.
+cp -r * ~/scripts/.
 cd ~/scripts
 ./symlinksbin.sh
 cp gitr-completion.bash ~/bin/.
