@@ -30,8 +30,4 @@ go get -u github.com/josharian/impl
 go get -u github.com/cweill/gotests
 go get -u github.com/davidrjenni/reftools/cmd/fillstruct
 go get -u github.com/go-delve/delve/cmd/dlv
-#sudo apt install golang-golang-x-tools
-#go get -u -v github.com/nsf/gocode
-#go get -u -v golang.org/x/tools/cmd/guru
-#go get -u -v github.com/golang/lint/golint
 echo "Install the Go::CodeNix eclipse plug-in from the marketplace"
