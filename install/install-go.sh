@@ -30,4 +30,5 @@ go get -u github.com/josharian/impl
 go get -u github.com/cweill/gotests
 go get -u github.com/davidrjenni/reftools/cmd/fillstruct
 go get -u github.com/go-delve/delve/cmd/dlv
+sudo snap install gopls --edge --classic
 echo "Install the Go::CodeNix eclipse plug-in from the marketplace"
