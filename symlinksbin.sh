@@ -69,8 +69,8 @@ rm $HOME/bin/worker3
 ln -s $HOME/scripts/worker3.sh $HOME/bin/worker3
 rm $HOME/bin/update
 ln -s $HOME/scripts/update.sh $HOME/bin/update
-rm $HOME/bin/dev
-ln -s $HOME/scripts/dev.sh $HOME/bin/dev
+rm $HOME/bin/d
+ln -s $HOME/scripts/dev.sh $HOME/bin/d
 rm $HOME/bin/infra
 ln -s $HOME/scripts/infra.sh $HOME/bin/infra
 rm $HOME/bin/cleanup
@@ -119,3 +119,5 @@ rm $HOME/bin/minstall
 ln -s $HOME/scripts/minstall.sh $HOME/bin/minstall
 rm $HOME/bin/eh
 ln -s $HOME/scripts/eh.sh $HOME/bin/eh
+rm $HOME/bin/g
+ln -s $HOME/scripts/go.sh $HOME/bin/g
