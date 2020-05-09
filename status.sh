@@ -1,3 +1,3 @@
 #!/bin/sh
-echo `gitshow` && git status
-#git submodule --quiet foreach --recursive git status
+echo `gitshow` && git status -s
+#git submodule --quiet foreach --recursive git status -s
