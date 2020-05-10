@@ -94,6 +94,8 @@ ln -s $HOME/scripts/gitr.sh $HOME/bin/gitr
 rm $HOME/bin/status
 ln -s $HOME/scripts/status.sh $HOME/bin/status
 rm $HOME/bin/checkout
+rm $HOME/bin/st
+ln -s $HOME/scripts/status.sh $HOME/bin/st
 ln -s $HOME/scripts/checkout.sh $HOME/bin/checkout
 rm $HOME/bin/gut
 ln -s $HOME/scripts/git-update-this.sh $HOME/bin/gut
