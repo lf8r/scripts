@@ -15,3 +15,4 @@ sudo apt install openjdk-8-jdk
 echo "alias vi=\"code --wait\"" >> $HOME/.bashrc
 sudo apt install protobuf-compiler
 sudo apt install net-tools
+sudo apt install protobuf-compiler

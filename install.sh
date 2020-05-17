@@ -6,6 +6,7 @@ mkdir -p ~/scripts
 rm -rf ~/scripts/*
 cp -r * ~/scripts/.
 cd ~/scripts
+mkdir -p ~/bin
 ./symlinksbin.sh
 cp gitr-completion.bash ~/bin/.
 cd ~/bin
