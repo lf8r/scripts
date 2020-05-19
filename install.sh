@@ -11,3 +11,4 @@ mkdir -p ~/bin
 cp gitr-completion.bash ~/bin/.
 cd ~/bin
 echo "Run source ~/bin/gitr-completion.bash"
+echo Done
