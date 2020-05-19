@@ -123,3 +123,5 @@ rm $HOME/bin/eh
 ln -s $HOME/scripts/eh.sh $HOME/bin/eh
 rm $HOME/bin/g
 ln -s $HOME/scripts/go.sh $HOME/bin/g
+rm $HOME/bin/compact
+ln -s $HOME/scripts/compact.sh $HOME/bin/compact
