@@ -77,8 +77,8 @@ rm $HOME/bin/cleanup
 ln -s $HOME/scripts/cleanup.sh $HOME/bin/cleanup
 rm $HOME/bin/gc
 ln -s $HOME/scripts/git-clean.sh $HOME/bin/gc
-rm $HOME/bin/rem
-ln -s $HOME/scripts/r.sh $HOME/bin/rem
+rm $HOME/bin/r
+ln -s $HOME/scripts/r.sh $HOME/bin/r
 rm $HOME/bin/grpo
 ln -s $HOME/scripts/grpo.sh $HOME/bin/grpo
 rm $HOME/bin/clone

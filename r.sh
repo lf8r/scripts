@@ -1,2 +1,2 @@
 #!/bin/sh
-remarkable "$@" &
+remarkable "$@" 2 > /dev/null &
