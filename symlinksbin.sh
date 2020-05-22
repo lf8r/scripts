@@ -133,3 +133,8 @@ mkdir -p $HOME/plantuml/out
 cp plantuml.jar $HOME/plantuml/.
 rm $HOME/bin/plantuml
 ln -s $HOME/scripts/plantuml.sh $HOME/bin/plantuml
+echo ===
+echo "PlantUML support has been added under $HOME/plantuml"
+echo "Add platuml source files under $HOME/plantuml/src and run platuml"
+echo "The plantuml output will be genrated under $HOME/plantuml/out"
+echo ===
