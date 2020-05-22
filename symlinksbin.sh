@@ -125,5 +125,11 @@ rm $HOME/bin/g
 ln -s $HOME/scripts/go.sh $HOME/bin/g
 rm $HOME/bin/compact
 ln -s $HOME/scripts/compact.sh $HOME/bin/compact
-rm $HOME/bin/clonehpe
+rm $HOME/bin/clone-hpe
 ln -s $HOME/scripts/clone-hpe.sh $HOME/bin/clone-hpe
+
+mkdir -p $HOME/plantuml/src
+mkdir -p $HOME/plantuml/out
+cp plantuml.jar $HOME/plantuml/.
+rm $HOME/bin/plantuml
+ln -s $HOME/scripts/plantuml.sh $HOME/bin/plantuml
