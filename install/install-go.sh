@@ -3,10 +3,14 @@ sudo apt-get update
 sudo apt-get -y upgrade
 cd /tmp
 wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.12.15.linux-amd64.tar.gz
 tar -zxvf go1.14.2.linux-amd64.tar.gz
+sudo mv /tmp/go /opt/go14
+tar -zxvf go1.12.15.linux-amd64.tar.gz
+sudo mv /tmp/go /opt/go12
 sudo rm -rf /usr/local/go
-sudo mv go /usr/local/.
-mkdir -p ~/go
+sudo ln -s /opt/go14 /usr/local/go
+
 echo "export GOROOT=/usr/local/go" >> ~/.bashrc
 echo "export GOPATH=$HOME/go" >> ~/.bashrc
 echo "export PATH=$HOME/go/bin:/usr/local/go/bin:$PATH" >> ~/.bashrc
