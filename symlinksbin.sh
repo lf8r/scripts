@@ -127,6 +127,8 @@ rm $HOME/bin/compact
 ln -s $HOME/scripts/compact.sh $HOME/bin/compact
 rm $HOME/bin/clone-hpe
 ln -s $HOME/scripts/clone-hpe.sh $HOME/bin/clone-hpe
+rm $HOME/bin/setgo
+ln -s $HOME/scripts/setgo.sh $HOME/bin/setgo
 
 mkdir -p $HOME/plantuml/src
 mkdir -p $HOME/plantuml/out
