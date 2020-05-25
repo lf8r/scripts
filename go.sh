@@ -1,2 +1,2 @@
 #!/bin/sh
-cd $GOPATH/src/github.com/subhajitdasgupta/go
+cd $GOPATH/src/github.com/lf8r/go
