@@ -140,3 +140,6 @@ echo "PlantUML support has been added under $HOME/plantuml"
 echo "Add platuml source files under $HOME/plantuml/src and run platuml"
 echo "The plantuml output will be genrated under $HOME/plantuml/out"
 echo ===
+rm $HOME/bin/cup
+ln -s $HOME/scripts/cup.sh $HOME/bin/cup
+
