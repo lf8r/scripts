@@ -144,3 +144,9 @@ rm $HOME/bin/cup
 ln -s $HOME/scripts/cup.sh $HOME/bin/cup
 rm $HOME/bin/ppi
 ln -s $HOME/scripts/ppi.sh $HOME/bin/ppi
+rm $HOME/bin/vmup
+ln -s $HOME/scripts/vmup.sh $HOME/bin/vmup
+rm $HOME/bin/vmopen
+ln -s $HOME/scripts/vmopen.sh $HOME/bin/vmopen
+rm $HOME/bin/vmdown
+ln -s $HOME/scripts/vmdown.sh $HOME/bin/vmdown
