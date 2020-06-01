@@ -153,3 +153,4 @@ ln -s $HOME/scripts/vmdown.sh $HOME/bin/vmdown
 rm $HOME/bin/setpg
 ln -s $HOME/scripts/setpg.sh $HOME/bin/setpg
 cp qsetenv.sh ~/bin/.
+cp setenv.sh ~/bin/.

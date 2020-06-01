@@ -21,7 +21,7 @@ fi
 
 if [ $1 = 'pg10' ]
 then
-	sudo /etc/init.d/postgresl stop
+	sudo /etc/init.d/postgresql stop
 	cd /var/tmp
 	rm -rf infra
 	git clone git@github.com:lf8r/infra.git
