@@ -150,3 +150,5 @@ rm $HOME/bin/vmopen
 ln -s $HOME/scripts/vmopen.sh $HOME/bin/vmopen
 rm $HOME/bin/vmdown
 ln -s $HOME/scripts/vmdown.sh $HOME/bin/vmdown
+rm $HOME/bin/setpg
+ln -s $HOME/scripts/setpg.sh $HOME/bin/setpg
