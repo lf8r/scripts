@@ -70,7 +70,7 @@ ln -s $HOME/scripts/worker3.sh $HOME/bin/worker3
 rm $HOME/bin/update
 ln -s $HOME/scripts/update.sh $HOME/bin/update
 rm $HOME/bin/d
-ln -s $HOME/scripts/devsetup.sh $HOME/bin/d
+ln -s $HOME/scripts/devsetenv.sh $HOME/bin/d
 rm $HOME/bin/infra
 ln -s $HOME/scripts/infra.sh $HOME/bin/infra
 rm $HOME/bin/cleanup
