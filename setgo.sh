@@ -8,4 +8,8 @@ fi
 
 sudo rm -f /usr/local/go
 sudo ln -s /opt/$1 /usr/local/go
+mkdir -p /var/tmp/$1
+export GOPATH=/var/tmp/$1
+export GOBIN=$GOPATH/bin
+export PATH=$GOPATH/bin:$PATH
 go version
