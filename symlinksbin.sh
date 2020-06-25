@@ -156,3 +156,5 @@ rm $HOME/bin/setpg
 ln -s $HOME/scripts/setpg.sh $HOME/bin/setpg
 cp qsetenv.sh ~/bin/.
 cp setenv.sh ~/bin/.
+rm $HOME/bin/force-remove
+ln -s $HOME/scripts/force-remove.sh $HOME/bin/force-remove 
