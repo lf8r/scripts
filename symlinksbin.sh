@@ -158,3 +158,5 @@ cp qsetenv.sh ~/bin/.
 cp setenv.sh ~/bin/.
 rm $HOME/bin/force-remove
 ln -s $HOME/scripts/force-remove.sh $HOME/bin/force-remove 
+rm $HOME/bin/q
+ln -s $HOME/scripts/cdquake.sh $HOME/bin/q
