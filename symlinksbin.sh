@@ -160,3 +160,9 @@ rm $HOME/bin/force-remove
 ln -s $HOME/scripts/force-remove.sh $HOME/bin/force-remove 
 rm $HOME/bin/q
 ln -s $HOME/scripts/cdquake.sh $HOME/bin/q
+rm $HOME/bin/grl
+ln -s $HOME/scripts/git-remote-local.sh $HOME/bin/grl
+rm $HOME/bin/gro
+ln -s $HOME/scripts/git-remote-origin.sh $HOME/bin/gro
+rm $HOME/bin/gcu
+ln -s $HOME/scripts/get-current-upstream.sh $HOME/bin/gcu

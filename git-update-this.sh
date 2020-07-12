@@ -1,3 +1,3 @@
 #/bin/sh
-git fetch origin `cb`
+git fetch `gcu` `cb`
 git merge FETCH_HEAD
