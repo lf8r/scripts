@@ -166,3 +166,5 @@ rm $HOME/bin/gro
 ln -s $HOME/scripts/git-remote-origin.sh $HOME/bin/gro
 rm $HOME/bin/gcu
 ln -s $HOME/scripts/get-current-upstream.sh $HOME/bin/gcu
+rm $HOME/bin/ll
+ln -s $HOME/scripts/ll.sh $HOME/bin/ll
