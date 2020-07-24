@@ -1,6 +1,8 @@
 #!/bin/sh
-mkdir -p /mnt/g/lightroom/sharpened
-rm -rf /mnt/g/lightroom/sharpened/*
-mkdir -p /mnt/g/lightroom/nef
-rm -rf /mnt/g/lightroom/nef/*
+set -e
+LIGHTROOM_BASE=$HOME/lightroom
+mkdir -p $LIGHTROOM_BASE/sharpened
+rm -rf $LIGHTROOM_BASE/sharpened/*
+mkdir -p $LIGHTROOM_BASE/nef
+rm -rf $LIGHTROOM_BASE/nef/*
 
