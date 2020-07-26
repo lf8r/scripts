@@ -168,3 +168,5 @@ rm $HOME/bin/gcu
 ln -s $HOME/scripts/get-current-upstream.sh $HOME/bin/gcu
 rm $HOME/bin/ll
 ln -s $HOME/scripts/ll.sh $HOME/bin/ll
+rm ~/bin/quattro
+ln -s $HOME/scripts/quattro.sh $HOME/bin/quattro
