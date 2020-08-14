@@ -170,3 +170,7 @@ rm $HOME/bin/ll
 ln -s $HOME/scripts/ll.sh $HOME/bin/ll
 rm ~/bin/quattro
 ln -s $HOME/scripts/quattro.sh $HOME/bin/quattro
+rm ~/bin/go12
+ln -s $HOME/scripts/go12.sh $HOME/bin/go12
+rm ~/bin/go15
+ln -s $HOME/scripts/go15.sh $HOME/bin/go15
