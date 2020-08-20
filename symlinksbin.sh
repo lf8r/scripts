@@ -174,3 +174,5 @@ rm ~/bin/go12
 ln -s $HOME/scripts/go12.sh $HOME/bin/go12
 rm ~/bin/go15
 ln -s $HOME/scripts/go15.sh $HOME/bin/go15
+rm ~/bin/j
+ln -s $HOME/scripts/j.sh $HOME/bin/j
