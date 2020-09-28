@@ -176,3 +176,5 @@ rm ~/bin/go15
 ln -s $HOME/scripts/go15.sh $HOME/bin/go15
 rm ~/bin/j
 ln -s $HOME/scripts/j.sh $HOME/bin/j
+rm ~/bin/rl
+ln -s $HOME/scripts/resetlogs.sh $HOME/bin/rl
